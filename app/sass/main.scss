@@ -1,0 +1,271 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	color: #777777;
+}
+#container {
+	min-width: 100%;
+	max-width: 1400px;
+}
+.main {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: url(../img/Image.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.main-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.header {
+	display: flex;
+	height: 14vh;
+	justify-content: space-between;
+	align-items: center;
+	width: 67%;
+	position: relative;
+	z-index: 2;
+}
+.menu {
+	width: 40%;
+}
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+}
+.menu-link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+.main-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	margin-bottom: 120px;
+	margin-top: 160px;
+}
+.main-text span {
+	display: inline-block;
+	font-size: 32px;
+}
+.main-text h1 {
+	font-size: 66px;
+	text-transform: uppercase;
+}
+.main-learn {
+	position: relative;
+	z-index: 2;
+	height: 68vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lear-btn {
+	border: 2px solid #fff;
+	padding: 15px 50px;	
+	text-align: center;
+}
+.lear-btn a {
+	color: #fff;
+	font-size: 23px;
+}
+.table {
+	display: flex;
+	flex-direction: column;
+	background: #fafafa;
+}
+.column-web {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+	align-items: center;
+}
+.column-left1 h2 {
+	font-size: 60px;
+	font-weight: normal;
+}
+.column-left1 span {
+	font-weight: bold;
+}
+.column-left1 {
+	width: 555px;
+}
+.column-right1 {
+	padding: 50px 50px;
+}
+.column-right {
+	width: 516px;
+	margin-left: 55px;
+}
+.column-right p {
+	font-size: 18px;
+}
+.column-identity {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.column-right h2 {
+	font-size: 60px;
+	font-weight: normal;
+}
+.column-right span {
+	font-weight: bold;
+}
+.skiils {
+	display: flex;
+	justify-content: center;
+	margin-top: 196px;
+}
+.iconteamleft {
+	display: flex;
+	align-items: flex-start;
+	width: 396px;
+	margin-left: 40px;
+	margin-right: 23px;
+}
+.iconteamleft img {
+	padding-top: 18px;
+	padding-right: 20px;
+}
+.clients {
+	text-align: center;
+	margin-top: 200px;
+}
+.clients h2 {
+	font-weight: normal;
+	font-size: 60px;
+}
+.clients span {
+	font-weight: bold;
+}
+.clients p {
+	font-size: 22px;
+}
+.common {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.circule {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-clients {
+	width: 600px;
+	margin-left: 100px;
+}
+.text-clients p {
+	color: #a1b2d5;
+	font-size: 20px;
+	text-align: left;
+}
+blockquote {
+	font-size: 22px;
+	text-align: left;
+}
+.logos {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.log-wp {
+	padding: 0 20px;
+}
+.log-ae {
+	padding: 0 30px 0 10px;
+}
+.amazing-team {
+	background: #000;
+	margin-top: 70px;
+}
+.title-team {
+	text-align: center;
+	padding-top: 70px;
+}
+.title-team h2 {
+	font-size: 60px;
+	font-weight: normal;
+	color: #fff;
+}
+.title-team span {
+	font-weight: bold;
+}
+.title-team p {
+	font-size: 22px;
+}
+.oval {
+	width: 220px;
+	height: 220px;
+	border-radius: 10em;
+	border: 5px solid #fff;
+}
+.team-column {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.colum {
+	text-align: center;
+}
+.colum:nth-child(2) {
+	margin: 0 60px;
+}
+.name {
+	color: #fff;
+	font-size: 18px;
+}
+.name span {
+	display: block;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.icon-class {
+	display: flex;
+	justify-content: center;
+}
+.icon-wrap:nth-child(2) {
+	margin: 0 10px;
+}
+.icon-wrap {
+	width: 41px;
+	height: 41px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 10em;
+	border: 3px solid #fff;
+}
+.icon-wrap img {
+	padding-top: 10px;
+}
+.under_the_columns {
+	text-align: center;
+	padding: 50px 0 100px 0;
+}

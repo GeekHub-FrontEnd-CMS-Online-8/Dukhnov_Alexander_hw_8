@@ -5,6 +5,9 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 0;
 }
+h2 {
+	margin: 0;
+}
 li {
 	list-style: none;
 }
@@ -91,6 +94,9 @@ p {
 .lear-btn a {
 	color: #fff;
 	font-size: 23px;
+}
+.lear-btn:hover {
+	background-color: #4d4355;
 }
 .table {
 	display: flex;
@@ -268,4 +274,97 @@ blockquote {
 .under_the_columns {
 	text-align: center;
 	padding: 50px 0 100px 0;
+}
+.fihish {
+	background: #7690c5;
+	margin-top: -16px;
+}
+.contacts {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.greeting h2 {
+	font-size: 60px;
+	font-weight: normal;
+	color: #fff;
+}
+.greeting span {
+	font-weight: bold;
+}
+.greeting p {
+	font-size: 18px;
+	color: #fff;
+}
+.contact {
+	padding-top: 47px;
+	display: flex;
+	justify-content: space-between;
+}
+.mobile, .google, .twittor {
+	display: flex;
+	align-items: center;
+}
+.mobile p {
+	color: #fff;
+	padding-left: 17px;
+}
+.twittor p {
+	color: #fff;
+	padding-left: 17px;
+}
+.google p {
+	color: #fff;
+	padding-left: 17px;
+}
+.mail, .facebook, .pinterest {
+	display: flex;
+	align-items: center;
+}
+.mail p {
+	color: #fff;
+	padding-left: 17px;
+}
+.facebook p {
+	color: #fff;
+	padding-left: 17px;
+}
+.pinterest p {
+	color: #fff;
+	padding-left: 17px;
+}
+.names input {
+	width: 456px;
+	height: 50px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.email {
+	padding: 29px 0 21px 0;
+}
+.email input {
+	width: 456px;
+	height: 51px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.message textarea {
+	width: 456px;
+	height: 209px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+footer {
+	text-align: center;
+	padding-top: 100px;
+}
+.hr {
+	margin: 0 auto;
+	width: 940px;
+	border: 1px solid #87a0d2;
+}
+footer p {
+	color: #fff;
+	font-size: 16px;
+	padding: 31px 0;
 }
